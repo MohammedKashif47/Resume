@@ -1,0 +1,138 @@
+:root {
+  --bg: #f7f8fa;
+  --surface: #ffffff;
+  --text: #1c2430;
+  --muted: #5b6676;
+  --border: #e3e7ed;
+  --accent: #1f5fbf;
+  --accent-soft: #e8f0fc;
+  --hero-bg: #13233d;
+  --hero-text: #f2f5fa;
+  --radius: 10px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f141b;
+    --surface: #171e28;
+    --text: #e4e9f0;
+    --muted: #9aa6b6;
+    --border: #273141;
+    --accent: #7fb0ff;
+    --accent-soft: #1c2b42;
+    --hero-bg: #0a1220;
+    --hero-text: #f2f5fa;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text);
+  background: var(--bg);
+}
+
+a { color: var(--accent); }
+
+.wrap, main, footer p {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Hero */
+#hero {
+  background: var(--hero-bg);
+  color: var(--hero-text);
+  padding: 72px 0 56px;
+}
+#hero h1 { margin: 0 0 8px; font-size: clamp(2rem, 5vw, 2.8rem); line-height: 1.15; }
+#hero .label { margin: 0 0 6px; font-size: 1.1rem; opacity: 0.9; }
+#hero .location { margin: 0 0 18px; opacity: 0.7; }
+#hero .links { display: flex; flex-wrap: wrap; gap: 10px; margin: 0; }
+#hero .links a {
+  color: var(--hero-text);
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.92rem;
+}
+#hero .links a:hover { background: rgba(255, 255, 255, 0.12); }
+.avatar { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; margin-bottom: 16px; }
+.error { color: #ffb4b4; }
+
+/* Sections */
+main { padding-top: 24px; padding-bottom: 24px; }
+section { padding: 32px 0; border-bottom: 1px solid var(--border); }
+section:last-child { border-bottom: 0; }
+section h2 { margin: 0 0 20px; font-size: 1.5rem; }
+h3 { margin: 0 0 4px; font-size: 1.08rem; }
+.muted, .org { color: var(--muted); margin: 0; }
+.org { font-weight: 500; }
+
+/* Cards */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 20px 22px;
+  margin-bottom: 16px;
+}
+.card-head { display: flex; justify-content: space-between; gap: 16px; align-items: flex-start; margin-bottom: 10px; }
+.date { color: var(--muted); font-size: 0.9rem; white-space: nowrap; }
+.card ul { margin: 8px 0 0; padding-left: 20px; }
+.card li { margin-bottom: 4px; }
+
+/* Timeline */
+#work-list { border-left: 2px solid var(--border); padding-left: 20px; }
+.timeline-item { position: relative; }
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -28px;
+  top: 26px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--accent);
+  border: 2px solid var(--bg);
+}
+
+/* Skills */
+#skill-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.skill { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 18px; }
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.tag { background: var(--accent-soft); color: var(--accent); font-size: 0.85rem; padding: 3px 10px; border-radius: 999px; }
+
+/* Certificates */
+#cert-list { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+.cert { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 18px; }
+
+/* Contact */
+#contact-section { text-align: center; }
+.btn {
+  display: inline-block;
+  background: var(--accent);
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 999px;
+  font-weight: 600;
+}
+@media (prefers-color-scheme: dark) { .btn { color: #0f141b; } }
+.btn:hover { opacity: 0.9; }
+
+footer { padding: 24px 0 40px; color: var(--muted); font-size: 0.9rem; text-align: center; }
+code { font-size: 0.9em; }
+
+@media (max-width: 600px) {
+  .card-head { flex-direction: column; gap: 4px; }
+  #hero { padding: 48px 0 40px; }
+}

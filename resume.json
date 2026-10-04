@@ -1,0 +1,245 @@
+{
+  "basics": {
+    "name": "Shaik Mohammed Kasif",
+    "label": "Senior Technical Writer | Structured Authoring | API Documentation Specialist",
+    "image": "",
+    "email": "mdkashif.sk90@gmail.com",
+    "phone": "+91 8919473683",
+    "url": "",
+    "summary": "Senior Technical Writer with 9 years of experience specializing in API documentation, DITA-based structured authoring, and docs-as-code workflows. Hands-on experience with Swagger, Postman, JSON, Antora, and AsciiDoc to create scalable HTML documentation. Proven ability to simplify complex technical systems into clear, user-friendly content that improves usability and accelerates product adoption across networking, telecom, software, and robotics domains.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Bangalore",
+      "countryCode": "IN",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "mohammedkasif",
+        "url": "https://linkedin.com/in/mohammedkasif"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Persol India Pvt. Ltd.",
+      "position": "Senior Technical Writer",
+      "description": "Client: Ciena",
+      "startDate": "2025-11",
+      "endDate": "",
+      "summary": "Own end-to-end API documentation lifecycle with expertise in docs-as-code workflows, AI-assisted documentation, and cloud infrastructure documentation.",
+      "highlights": [
+        "Own end-to-end API documentation lifecycle collaborating directly with developers, SMEs, and product managers",
+        "Create and maintain API documentation using Swagger and JSON publishing user-friendly HTML documentation aligned with product releases",
+        "Implement docs-as-code workflows using AsciiDoc and Antora improving scalability and maintainability",
+        "Apply AI-assisted documentation techniques using Claude Code including reusable skills and Git integration automating documentation workflows"
+      ],
+      "url": "",
+      "location": "Pune"
+    },
+    {
+      "name": "Quest Global Pvt. Ltd.",
+      "position": "Senior Technical Writer",
+      "description": "Client: ABB Robotics",
+      "startDate": "2023-02",
+      "endDate": "2025-11",
+      "summary": "Solely owned 2 pilot documentation projects end-to-end, converting them into full-scale projects with expanded scope and team growth through high-quality delivery.",
+      "highlights": [
+        "Solely own 2 pilot documentation projects end-to-end converting pilot initiatives into full-scale projects with expanded scope and team growth",
+        "Deliver high-quality outcomes leading to client satisfaction and expanded engagement",
+        "Manage content in CMS tools including MadCap Central, SharePoint, and SAP with strong version control practices",
+        "Maintain high documentation accuracy through regular reviews and validation with SMEs"
+      ],
+      "url": "",
+      "location": "Bangalore"
+    },
+    {
+      "name": "Cyient Ltd.",
+      "position": "Senior Technical Writer",
+      "startDate": "2019-12",
+      "endDate": "2023-02",
+      "summary": "Led a team of technical writers, improved documentation quality by 25%, and served as primary client contact for requirements and deliverables.",
+      "highlights": [
+        "Lead a team of technical writers assigning tasks mentoring team members and ensuring timely delivery of documentation",
+        "Improve documentation quality by 25% through structured peer reviews and standardization initiatives",
+        "Act as primary point of contact for clients providing regular updates gathering requirements and aligning deliverables with expectations",
+        "Ensure compliance with corporate templates style guides and versioning standards across all documentation"
+      ],
+      "url": "",
+      "location": "Hyderabad"
+    },
+    {
+      "name": "Sonovision-Aetos Pvt. Ltd.",
+      "position": "Technical Writer",
+      "startDate": "2017-05",
+      "endDate": "2019-06",
+      "summary": "Developed technical documentation for aerospace projects including user guides, maintenance manuals, and operational documentation using structured writing techniques.",
+      "highlights": [
+        "Develop technical documentation for aerospace projects including user guides maintenance manuals and operation manuals",
+        "Apply Information Mapping and structured writing techniques for clarity and usability",
+        "Create technical illustrations and 3D visuals using Cortona3D and Adobe tools"
+      ],
+      "url": "",
+      "location": "Bangalore"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Sri Krishna Devaraya Engineering College",
+      "studyType": "B.Tech",
+      "area": "Mechanical Engineering",
+      "startDate": "",
+      "endDate": "",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Docs-as-code",
+      "level": "",
+      "keywords": [
+        "Asciidoc",
+        "AsciiDoctor",
+        "Antora",
+        "Git"
+      ]
+    },
+    {
+      "name": "Structured Authoring",
+      "level": "",
+      "keywords": [
+        "DITA",
+        "Content Reuse",
+        "Oxygen XML",
+        "Arbortext",
+        "MadCap Flare",
+        "FrameMaker"
+      ]
+    },
+    {
+      "name": "API Documentation",
+      "level": "",
+      "keywords": [
+        "Swagger",
+        "Postman",
+        "JSON"
+      ]
+    },
+    {
+      "name": "AI-assisted Documentation",
+      "level": "",
+      "keywords": [
+        "Claude Code",
+        "Reusable Skills",
+        "Git Integration",
+        "Workflow Automation"
+      ]
+    },
+    {
+      "name": "Information Architecture & Content Strategy",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "UI/UX Writing",
+      "level": "",
+      "keywords": [
+        "Figma Collaboration"
+      ]
+    },
+    {
+      "name": "Team Leadership & Mentoring",
+      "level": "",
+      "keywords": []
+    },
+    {
+      "name": "Stakeholder Management",
+      "level": "",
+      "keywords": [
+        "Client Communication"
+      ]
+    },
+    {
+      "name": "Version Control & CMS",
+      "level": "",
+      "keywords": [
+        "Git",
+        "MadCap Central",
+        "SharePoint",
+        "SAP",
+        "Document 360"
+      ]
+    },
+    {
+      "name": "Agile/Scrum",
+      "level": "",
+      "keywords": [
+        "SDLC",
+        "DDLC"
+      ]
+    },
+    {
+      "name": "Design & Illustration",
+      "level": "",
+      "keywords": [
+        "Snagit",
+        "IsoDraw",
+        "Cortona3D",
+        "Adobe Illustrator",
+        "Adobe Photoshop",
+        "Figma",
+        "MS Visio"
+      ]
+    },
+    {
+      "name": "Collaboration & Productivity Tools",
+      "level": "",
+      "keywords": [
+        "MS Office",
+        "Google Workspace",
+        "Adobe Acrobat DC",
+        "Jira",
+        "Confluence"
+      ]
+    },
+    {
+      "name": "Languages",
+      "level": "",
+      "keywords": [
+        "English",
+        "Hindi",
+        "Telugu",
+        "Urdu"
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Fundamentals of API Documentation",
+      "date": "",
+      "issuer": "Tech Writer's Tribe",
+      "url": ""
+    },
+    {
+      "name": "AI Integration with Documentation",
+      "date": "",
+      "issuer": "Tech Writer's Tribe",
+      "url": ""
+    },
+    {
+      "name": "CCNA (Networking)",
+      "date": "",
+      "issuer": "Udemy",
+      "url": ""
+    }
+  ],
+  "projects": [],
+  "meta": {
+    "canonical": "",
+    "version": "v1.0.0",
+    "lastModified": "2026-10-03"
+  }
+}
